@@ -10,7 +10,7 @@ public class Circle {
     // Constructor
     public Circle(double radius) {
         this.radius = radius;
-        this.circumference = circumference;
+//        this.circumference = circumference;
     }
 
 // Methods
@@ -19,9 +19,9 @@ public class Circle {
         return radius;
     }
 
-//    public void setRadius(double newRadius) {
-//        newRadius = radius;
-//    }
+   public void setRadius(double newRadius) {
+        newRadius = this.radius;
+    }
 
     public double getCircumference() {
         return 2 * radius * Math.PI;
