@@ -43,7 +43,7 @@ public void setBalance(int balance){
         this.balance = balance;
 }
 
-// Unsure what this is
+// Understand this better now
     @Override
     public String toString() {
         return "Account{" + "id='" + id + ", name='" + name + ", balance=" + balance + '}';

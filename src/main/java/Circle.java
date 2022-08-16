@@ -19,8 +19,8 @@ public class Circle {
         return radius;
     }
 
-   public void setRadius(double newRadius) {
-        newRadius = this.radius;
+   public void setRadius(double newRadius) {   // Setting a new various from MAIN
+        this.radius = newRadius;
     }
 
     public double getCircumference() {
