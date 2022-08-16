@@ -35,7 +35,16 @@ public class Main {
 
 //        Customer Example
 
-        
+        Customer bob = new Customer("bob", "rob", 200);
+
+        System.out.println("Customer name: " + bob.getFullName());
+        System.out.println("Customer balance: " + bob.getHeldMoney());
+
+        bob.subtractHeldMoney(50);
+        System.out.println("New account balance after deduction" +bob.getHeldMoney());
+
+        System.out.println(bob);
+
 
     }
 
